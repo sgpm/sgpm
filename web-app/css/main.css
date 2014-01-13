@@ -1,0 +1,33 @@
+/*	
+ * 	The MIT License (MIT)
+ * 	
+ * 	Copyright (c) 2013 Andreas Alanko, Emil Nilsson, Fredrik Larsson, Joakim Strand, Sandra Fridälv.
+ */
+ body,html {
+	height: 100%;
+}
+
+/* wrapper for the entire page */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* make room for footer */
+	margin: 0 auto -120px;
+	padding: 0 0 120px;
+}
+
+.container {
+	width: 800px !important;
+}
+
+.navbar-sgpm {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#footer {
+	font-size: 90%;
+	height: 120px;
+	color: #ffffff;
+	background-color: #000000;
+}
